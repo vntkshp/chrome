@@ -1,0 +1,158 @@
+/* use firefox addons Dark Reader by Alexander Shutau and VivaldiFox by Tim Nguyen for best experience */
+
+
+
+*{scrollbar-width: none !important }
+:root{ scrollbar-width: none !important }
+
+
+
+@-moz-document domain(instagram.com) {
+*{border: 0px !important;
+overflow: -moz-scrollbars-none !important;
+}
+/*body*/
+
+/* share button */
+
+.eo2As button:nth-child(3) {
+    display: none;}
+
+/* like comment */
+.rUo9f .jdtwu {
+    display: none;
+}
+
+
+
+
+/*right site all*/
+.XmSS_{display:none !important;}
+/*search*/
+
+
+
+
+/*header*/
+._lz6s {opacity: 0;
+transition:0.05s !important;
+background-color: rgb(13, 14, 16) !important;}
+
+.cq2ai {filter: invert(1);}
+._lz6s:hover {opacity:1 !important;}
+
+.MWDvN{max-width: 1100px !important;}
+
+.XajnB{ display:none !important;background-color: rgb(13, 14, 16) !important;}
+
+
+
+/*views*/
+.EDfFK, .ygqzn{display:none !important;}
+
+
+
+/*notification*/
+
+
+
+ /*dp text */
+
+
+/*border*/
+
+
+/* hearts*/
+.glyphsSpriteComment_like, .glyphsSpriteComment_like_active {
+    display: none !important;}
+
+
+/*options*/
+
+/*picture frame*/
+
+
+.c-Yi7, .c-Yi7:visited {display:none !important;
+}
+.glyphsSpriteDirect__outline__24__grey_9{display:none !important;
+}
+
+
+
+
+/*dp*/
+._2dbep::after {
+    border: 0px solid  !important;
+}
+._2dbep {
+    border: 0px solid !important;
+}
+
+/*borders*/
+.JyscU .UE9AK .ePUX4 .Slqrh{
+    border-bottom: 0px solid  !important;
+}
+.KQA-S, ._1MzIy, ._3MPWk, ._8Rm4L, .zMhqu {
+    border: 0px solid  !important;
+}
+    
+}
+/*stories/ suggest*/
+
+
+._8Scg1 .ijlbM {
+display: none !important;
+}
+.PIoXz {
+ display:none !important;
+}
+.COOzN {display:none !important;
+}
+
+/*discover people*/
+.Xt-CQ{display:none !important;}
+
+/*comments*/
+.sH9wk{display:none !important;}
+
+/*footer*/
+.iseBh{display:none !important;}
+
+/*explorer*/
+.yQ0j1{display:none !important;}
+
+
+/*comments*/
+.fr66n{display:none !important;}
+._15y0l{display:none !important;}
+._5e4p{display:none !important;}
+
+.k59kT{ margin-bottom:30px !important;}
+
+
+/*saved/tagged/tv*/
+
+
+/*text*/
+
+/*centre timeline*/
+._1SP8R {    max-width: 600px !important; 
+}
+
+/*suggestion*/
+
+
+._41KYi {
+    border: 0px solid #e6e6e6 !important;}
+
+/*likes*/
+.Nm9Fw{display: none !important;}
+
+.XQXOT { overflow: -moz-scrollbars-none !important; }
+/*comment button*/
+
+.element {  }
+
+
+}
+
