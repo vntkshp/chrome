@@ -6,6 +6,25 @@
 :root{ scrollbar-width: none !important }
 
 
+.pictureInPictureToggleLabel {display: none !important;}
+.pictureInPictureToggleIcon {display: none !important;}
+
+.pictureInPictureToggleButton:hover {
+cursor: pointer !important;
+}
+
+.pictureInPictureToggleButton:not(:focused) {
+height: 50px !important;
+width: 50px !important;
+}
+
+.pictureInPictureToggleButton {
+height: 37px !important;
+width: 37px !important;
+border-radius:20px;
+margin-right:-15px !important;
+background-color: rgba(0, 0, 0, 0.7) !important;
+}
 
 @-moz-document domain(instagram.com) {
 *{border: 0px !important;
@@ -155,4 +174,3 @@ display: none !important;
 
 
 }
-
