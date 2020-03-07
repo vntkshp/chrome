@@ -3,6 +3,7 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 
+#_testpilot-containers-menuitem-3,
 #context-navigation,
 #context-back,
 #context-forward,
@@ -112,6 +113,8 @@
 #context-media-eme-learnmore + menuseparator,
 #ublock0_raymondhill_net-menuitem-_uBlock0-blockElement
 { display:none !important; }
+
+
 
 
 
