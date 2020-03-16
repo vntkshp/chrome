@@ -36,6 +36,15 @@
 { display:none !important; }
 
 
+/* custom menu*/
+
+menuitem[label="Manage Containers"],
+menupopup[class="new-tab-popup"] menuseparator,
+toolbarbutton menuitem[label="No Container"]{display:none !important;}
+
+
+
+
 /*** image-context.css ***/
 #context-reloadimage,
 #context-setDesktopBackground,
