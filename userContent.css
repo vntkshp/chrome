@@ -2,219 +2,153 @@
 
 
 
-*{scrollbar-width: none !important }
-:root{ scrollbar-width: none !important }
+* {
+    scrollbar-width: thin !important;
 
+}
 
-.pictureInPictureToggleLabel {display: none !important;}
-.pictureInPictureToggleIcon {display: none !important;}
+:root {
+    scrollbar-width: thin !important;
+
+}
+
+.pictureInPictureToggleIcon {
+    display: none !important;
+}
+
+.pictureInPictureToggleLabel {
+    display: none !important;
+}
 
 .pictureInPictureToggleButton:hover {
-cursor: pointer !important;
+    cursor: pointer !important;
 }
 
-.pictureInPictureToggleButton:not(:focused) {
-height: 50px !important;
-width: 50px !important;
-}
-
-.pictureInPictureToggleButton {
-height: 37px !important;
-width: 37px !important;
-border-radius:20px;
-margin-right:-15px !important;
-background-color: rgba(0, 0, 0, 0.7) !important;
-}
+/* **********************************************************************
+********************************************************************** */
 
 @-moz-document domain(instagram.com) {
-*{border: 0px !important;
-overflow: -moz-scrollbars-none !important;
-}
+    * {
+        border: none !important;
+        color: #8b8b8b !important;
+        scrollbar-width: none !important;
+    }
+
+    a {
+        color: #d6d6d6 !important;
+    }
+
+    div[class="COOzN MnWb5 YT6rB"] {
+        display: none !important;
+    }
+
+    nav {
+        opacity: 0%;
+    }
+
+    nav:hover,
+    nav:focus,
+    nav:focus-within {
+        opacity: 100% !important;
+    }
+
+    .jLuN9 {
+        position: absolute !important;
+        z-index: 100 !important;
+    }
+
+    svg {
+        opacity: 0.4 !important;
+    }
+
+    svg:hover,
+    svg:focus,
+    a:hover svg {
+        opacity: 0.8 !important;
+        transition: all ease-in-out .2s !important;
+    }
+
+    .cGcGK {
+        max-width: 100% !important;
+    }
+
+    .j9XKR {
+        max-width: 750px !important;
+    }
+
+    /* likes on this image*/
+    section[class="EDfFK ygqzn"] {
+        display: none !important;
+    }
+
+    /* comments */
+    section[class="sH9wk  _JgwE "] {
+        display: none !important;
+    }
+
+    svg[aria-label="Comment"] {
+        display: none !important;
+    }
+
+    div[class="Z666a"] {
+        display: none !important;
+    }
+
+    span[class="DINPA"] {
+        display: none !important;
+    }
+
+    /* suggestions */
+    div[class="x2Ilm"] {
+        display: none !important;
+    }
+
+    /* dm */
+    div[class="pV7Qt _6Rvw2 Igw0E IwRSH YBx95 ybXk5 _4EzTm i0EQd"] {
+        max-width: 100% !important;
+    }
+
+    svg[aria-label="Like"],
+    svg[aria-label="Share Post"],
+    svg[aria-label="Save"] {
+        opacity: 0 !important;
+        transition: all ease-in-out .2s !important;
+    }
+
+    svg[aria-label="Like"]:hover,
+    svg[aria-label="Share Post"]:hover,
+    svg[aria-label="Save"]:hover {
+        opacity: 01 !important;
+    }
+
+
+    article[class="_8Rm4L M9sTE  L_LMM SgTZ1   ePUX4"],
+    article[class="_8Rm4L M9sTE  L_LMM SgTZ1  Tgarh ePUX4"] {
+        background-color: #0000002a !important;
+
+    }
+
+    /* comment */
+    span[class="_15y0l"] {
+        display: none !important;
+    }
+
+    /* comments padding */
+    .Slqrh,
+    .eo2As>.Slqrh:first-child,
+    .eo2As> :first-child {
+        margin-top: 0px !important;
+    }
+
+    /* time */
+    div[class="k_Q0X NnvRN"] time {
+        opacity: 0 !important;
+    }
+
+    div[class="k_Q0X NnvRN"]:hover time {
+        opacity: 1 !important;
+    }
 
-
-/* suggestion */
-.tHaIX{
-display:none !important;}
-
-._6E_wP{
-display:none !important;}
-
-/*stories */
-._4TVuL{
-display:none !important;}
-
-/* corona */
-.bR_3v  {
-display:none !important;}
-
-
-/* more from this user */
-.Z666a{
-display:none !important;}
-
-/* logo */
-.s4Iyt{
-filter: brightness(1) !important;}
-
-/* share button */
-
-.eo2As button:nth-child(3) {
-    display: none;}
-
-/* like comment */
-.rUo9f .jdtwu {
-    display: none;
-}
-
-
-/* svg */
-svg{opacity:50% !important;}
-
-/*right site all*/
-.XmSS_{display:none !important;}
-/*search*/
-
-
-
-
-/*header*/
-._lz6s {opacity: 0;
-transition:0.05s !important;
-background-color: rgb(13, 14, 16) !important;}
-
-.cq2ai {filter: invert(1);}
-._lz6s:hover {opacity:1 !important;}
-
-.MWDvN{max-width: 1100px !important;}
-
-.XajnB{ display:none !important;background-color: rgb(13, 14, 16) !important;}
-
-
-
-/*views*/
-.EDfFK, .ygqzn{display:none !important;}
-
-
-
-/*notification*/
-
-
-
- /*dp text */
-
-
-/*border*/
-
-
-/* share button*/
-svg[class="_8-yfs"]>path[d="M46.5 3.5h-45C.6 3.5.2 4.6.8 5.2l16 15.8 5.5 22.8c.2.9 1.4 1 1.8.3L47.4 5c.4-.7-.1-1.5-.9-1.5zm-40.1 3h33.5L19.1 18c-.4.2-.9.1-1.2-.2L6.4 6.5zm17.7 31.8l-4-16.6c-.1-.4.1-.9.5-1.1L41.5 9 24.1 38.3z"]{
-display:none !important;
-}
-
-/* hide comment hearts */
-button path[d="M34.3 3.5C27.2 3.5 24 8.8 24 8.8s-3.2-5.3-10.3-5.3C6.4 3.5.5 9.9.5 17.8s6.1 12.4 12.2 17.8c9.2 8.2 9.8 8.9 11.3 8.9s2.1-.7 11.3-8.9c6.2-5.5 12.2-10 12.2-17.8 0-7.9-5.9-14.3-13.2-14.3zm-1 29.8c-5.4 4.8-8.3 7.5-9.3 8.1-1-.7-4.6-3.9-9.3-8.1-5.5-4.9-11.2-9-11.2-15.6 0-6.2 4.6-11.3 10.2-11.3 4.1 0 6.3 2 7.9 4.2 3.6 5.1 1.2 5.1 4.8 0 1.6-2.2 3.8-4.2 7.9-4.2 5.6 0 10.2 5.1 10.2 11.3 0 6.7-5.7 10.8-11.2 15.6z"] {
-display:none !important;}
-
-button svg[aria-label="Share Post"] {display:none !important;}
-
-/* model bottom padding */
-
-.M9sTE {
-	padding-bottom: 25px !important;
-}
-/*max width timelline*/
-.cGcGK {	
-	float: left !important;
-	margin-right: 0px !important;
-	max-width: 700px !important;
-	width: 100% !important;
-	margin: 0 auto !important;
-}
-/*options*/
-
-/*picture frame*/
-
-
-.c-Yi7, .c-Yi7:visited {display:none !important;
-}
-.glyphsSpriteDirect__outline__24__grey_9{display:none !important;
-}
-
-
-
-
-/*dp*/
-._2dbep::after {
-    border: 0px solid  !important;
-}
-._2dbep {
-    border: 0px solid !important;
-}
-
-/*borders*/
-.JyscU .UE9AK .ePUX4 .Slqrh{
-    border-bottom: 0px solid  !important;
-}
-.KQA-S, ._1MzIy, ._3MPWk, ._8Rm4L, .zMhqu {
-    border: 0px solid  !important;
-}
-    
-}
-/*stories/ suggest*/
-
-
-._8Scg1 .ijlbM {
-display: none !important;
-}
-.PIoXz {
- display:none !important;
-}
-.COOzN {display:none !important;
-}
-
-/*discover people*/
-.Xt-CQ{display:none !important;}
-
-/*comments*/
-.sH9wk{display:none !important;}
-
-/*footer*/
-.iseBh{display:none !important;}
-
-/*explorer*/
-.yQ0j1{display:none !important;}
-
-
-/*comments*/
-.fr66n{display:none !important;}
-._15y0l{display:none !important;}
-._5e4p{display:none !important;}
-
-.k59kT{ margin-bottom:30px !important;}
-
-
-/*saved/tagged/tv*/
-
-
-/*text*/
-
-/*centre timeline
-._1SP8R {    max-width: 600px !important; 
-}*/
-
-/*suggestion*/
-
-
-._41KYi {
-    border: 0px solid #e6e6e6 !important;}
-
-/*likes*/
-.Nm9Fw{display: none !important;}
-
-.XQXOT { overflow: -moz-scrollbars-none !important; }
-/*comment button*/
-
-.element {  }
 
 
 }
