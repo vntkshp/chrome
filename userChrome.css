@@ -179,8 +179,8 @@ toolbarbutton menuitem[label="No Container"] {
 /* Drop Down URL with BLUR need layout.css.backdrop-filter.enabled = true */
 .urlbarView {
 	background-image: url(image/noise-512x512.png) !important;
-	background-color: #333333aa !important;
-	backdrop-filter: blur(10px) !important;
+	background-color: #ffffff00 !important;
+	backdrop-filter: blur(14px) contrast(0.85) brightness(1.1)  !important;
 }
 
 #urlbar-background {
@@ -238,19 +238,12 @@ toolbarbutton menuitem[label="No Container"] {
 }
 
 #navigator-toolbox {
-	--lwt-toolbar-field-background-color: #000000a0;
+	--lwt-toolbar-field-background-color: transparent !important;
 	--lwt-toolbar-field-border-color: transparent;
 	--lwt-toolbar-field-focus: transparent;
 	/* --toolbar-field-focus-border-color: #77777773 !important; */
 }
 
-#urlbar:hover #navigator-toolbox,
-#urlbar:focus #navigator-toolbox {
-	--lwt-toolbar-field-background-color: #000000aa !important;
-	--lwt-toolbar-field-border-color: revert !important;
-	--lwt-toolbar-field-focus: revert !important;
-
-}
 
 #urlbar:not(.megabar):not([focused="true"]):-moz-lwtheme,
 #urlbar:not(.megabar):not([focused="true"]):-moz-lwtheme:hover {
@@ -261,11 +254,13 @@ toolbarbutton menuitem[label="No Container"] {
 	border: 0 !important;
 	padding-bottom: 0px !important;
 	background-image: none !important;
-}
-
-#urlbar {
 	box-shadow: none !important;
 	text-align: center !important;
+	/* *************************** */
+	color: inherit !important;
+	-moz-context-properties: fill, fill-opacity;
+	fill: var(--lwt-toolbarbutton-icon-fill, currentColor);
+	fill-opacity: var(--toolbarbutton-icon-fill-opacity);
 }
 
 #tracking-protection-icon-container {
@@ -314,7 +309,7 @@ toolbarbutton menuitem[label="No Container"] {
 }
 
 
-/* url bar text shrinks when in "stealth mode" */
+/* url bar text shrinks when in "stealth mode" 
 #nav-bar #urlbar {
 	font-size: 0.8em;
 	transition: all 100ms var(--animation-easing-function) !important;
@@ -324,7 +319,7 @@ toolbarbutton menuitem[label="No Container"] {
 :root:not([customizing]) #navigator-toolbox:focus-within #nav-bar #urlbar {
 	font-size: 1.2em !important;
 }
-
+*/
 
 /* some experimentation with expanding tab on hover to see the title better, it's kinda stupid but I was just messing around, could be something useful in the future */
 .tabbrowser-tab:not([selected]):hover {
@@ -368,20 +363,18 @@ Remove borders everywhere, some code copied from edge style for firefox
 
 
 
-#nav-bar:hover>* {
+#nav-bar:hover>* ,
+#nav-bar:focus-within>*,
+#urlbar:focus,#urlbar:focus-within {
 	opacity: 1 !important;
-}
-
-#nav-bar:focus-within>* {
-	opacity: 1 !important;
-	font-size: 1em !important;
+	/* font-size: 1em !important; */
 }
 
 #urlbar {
 	opacity: 1 !important;
 }
 
-#urlbar .urlbar-input-box {
+#urlbar .urlbar-input-box, .urlbar-input-box:focus-within {
 	opacity: 1 !important;
 }
 
