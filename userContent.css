@@ -24,6 +24,8 @@
     cursor: pointer !important;
 }
 
+
+
 /* **********************************************************************
 ********************************************************************** */
 
@@ -37,6 +39,10 @@
     a {
         color: #d6d6d6 !important;
     }
+
+    button{
+	color: white !important;
+	}
 
     div[class="COOzN MnWb5 YT6rB"] {
         display: none !important;
@@ -58,15 +64,19 @@
     }
 
     svg {
-        opacity: 0.4 !important;
+        	opacity: 0.4 !important;
+	color: #ffffff !important;
     }
 
     svg:hover,
     svg:focus,
     a:hover svg {
-        opacity: 0.8 !important;
+        opacity: 1 !important;
         transition: all ease-in-out .2s !important;
+	filter: drop-shadow(1.5px 1.5px 0.2px #000000a0) !important;
     }
+
+    svg[aria-label="Unlike"]{opacity: 1 !important;}
 
     .cGcGK {
         max-width: 100% !important;
@@ -105,7 +115,7 @@
 
     /* dm */
     div[class="pV7Qt _6Rvw2 Igw0E IwRSH YBx95 ybXk5 _4EzTm i0EQd"] {
-        max-width: 100% !important;
+        max-width: 1200px !important;
     }
 
     svg[aria-label="Like"],
@@ -149,6 +159,71 @@
         opacity: 1 !important;
     }
 
+	/* dots positsion */
+.ijCUd {
+    margin-bottom: 20px !important;
+    margin-top: -18px !important;
+}
+
+/* icon on image }*/
+article[class="_8Rm4L M9sTE  L_LMM SgTZ1   ePUX4"] .eo2As  .wpO6b, section[class="ltpMr Slqrh"] .wpO6b{
+margin-top: -45px !important;
+margin-bottom: 16px !important;
+}
+
+/* .eo2As{
+margin-top: -45px !important;
+margin-bottom: 16px !important;} */
+
+/* icons on explorer page */
+article[class="M9sTE  L_LMM  JyscU  ePUX4"] svg {
+    opacity: 0.7 !important;
+    margin-bottom: 0px !important;
+}
 
 
+
+/* center tagged icon 
+._6JfJs{
+margin: 0 auto !important;}*/
+
+/* .HBUJV, .LcKDX{
+position: inherit !important;
+cursor: pointer !important;} */
+
+button[class="G_hoz LcKDX _6JfJs"], .HBUJV, .LcKDX{
+    bottom: unset !important;
+    top:0 !important;
+    z-index: 100 !important;
+    cursor:  pointer !important;
+}
+
+
+}
+
+@-moz-document url("about:newtab") {  
+	#newtab-window,
+  	html,
+  	body>*, 
+	a,span
+  	#newtab-customize-overlay 
+  	{
+    	background: #1d1e1f;
+    	color: #d1d1d1 !important;
+      }
+      
+      .icon.icon-settings{
+        fill: #d1d1d1 !important;
+      }
+
+      .icon-pin-small
+      {display: none !important;}
+
+      .collapsible-section.active{
+          background:#1b1c1d !important;
+      }
+
+      .tile {
+        box-shadow: none !important;
+      }
 }

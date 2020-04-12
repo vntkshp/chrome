@@ -180,7 +180,8 @@ toolbarbutton menuitem[label="No Container"] {
 .urlbarView {
 	background-image: url(image/noise-512x512.png) !important;
 	background-color: #ffffff00 !important;
-	backdrop-filter: blur(14px) contrast(0.85) brightness(1.1)  !important;
+	backdrop-filter: blur(12px) contrast(.8) brightness(1.1)  !important;
+	color: inherit !important;
 }
 
 #urlbar-background {
@@ -218,7 +219,7 @@ toolbarbutton menuitem[label="No Container"] {
 /* Search Bar #2b2b2bd1 */
 
 #urlbar-input-container * {
-	opacity: 70%;
+	opacity: 100%;
 	transition: all ease-in-out .5s;
 }
 
@@ -357,7 +358,7 @@ Remove borders everywhere, some code copied from edge style for firefox
 
 /* nav bar is semi opaque when unhovered */
 #nav-bar>* {
-	opacity: 0.3 !important;
+	opacity: .4 !important;
 	transition: opacity 0.3s !important;
 }
 
@@ -537,6 +538,8 @@ toolbarbutton.bookmark-item:hover {
 
 .tabbrowser-tab[pending] {
 	font-style: italic;
+	color: #ffffff73 !important;
+	font-size: 1em !important;
 }
 
 
@@ -549,3 +552,13 @@ toolbarspring {
 .tabbrowser-tab[fadein]:not([pinned]) {
 	max-width: 300px !important;
 }
+
+
+/* main menu */
+#appMenu-popup panelview{
+	background: #252728 !important;
+    	color: #dfdfdf !important;
+}
+
+image[class="panel-arrow"]{
+filter: invert(.84) !important;}
