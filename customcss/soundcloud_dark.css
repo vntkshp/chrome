@@ -1,260 +1,6 @@
-/* use firefox addons Dark Reader by Alexander Shutau and VivaldiFox by Tim Nguyen for best experience */
-
-
-
-* {
-    scrollbar-width: thin !important;
-
-}
-
-:root {
-    scrollbar-width: thin !important;
-
-}
-
-.pictureInPictureToggleIcon {
-    display: none !important;
-}
-
-.pictureInPictureToggleLabel {
-    display: none !important;
-}
-
-.pictureInPictureToggleButton:hover {
-    cursor: pointer !important;
-}
-
-
-
-/* **********************************************************************
-********************************************************************** */
-
-@-moz-document domain(instagram.com) {
-    * {
-        border: none !important;
-        color: #8b8b8b !important;
-        scrollbar-width: none !important;
-    }
-
-    a {
-        color: #d6d6d6 !important;
-    }
-
-    button{
-	color: white !important;
-	}
-
-    div[class="COOzN MnWb5 YT6rB"] {
-        display: none !important;
-    }
-
-    nav {
-        opacity: 0%;
-    }
-
-    nav:hover,
-    nav:focus,
-    nav:focus-within {
-        opacity: 100% !important;
-    }
-
-    .jLuN9 {
-        position: absolute !important;
-        z-index: 100 !important;
-    }
-
-    svg {
-        	opacity: 0.4 !important;
-	color: #ffffff !important;
-    }
-
-    svg:hover,
-    svg:focus,
-    a:hover svg {
-        opacity: 1 !important;
-        transition: all ease-in-out .2s !important;
-	filter: drop-shadow(1.5px 1.5px 0.2px #000000a0) !important;
-    }
-
-    svg[aria-label="Unlike"]{opacity: 1 !important;}
-
-    .cGcGK {
-        max-width: 100% !important;
-    }
-
-    .j9XKR {
-        max-width: 750px !important;
-    }
-
-    /* likes on this image*/
-    section[class="EDfFK ygqzn"] {
-        display: none !important;
-    }
-
-    /* comments */
-    section[class="sH9wk  _JgwE "] {
-        display: none !important;
-    }
-
-    svg[aria-label="Comment"] {
-        display: none !important;
-    }
-
-    div[class="Z666a"] {
-        display: none !important;
-    }
-
-    span[class="DINPA"] {
-        display: none !important;
-    }
-
-    /* suggestions */
-    div[class="x2Ilm"] {
-        display: none !important;
-    }
-
-    /* dm */
-    div[class="pV7Qt _6Rvw2 Igw0E IwRSH YBx95 ybXk5 _4EzTm i0EQd"] {
-        max-width: 1200px !important;
-    }
-
-    svg[aria-label="Like"],
-    svg[aria-label="Share Post"],
-    svg[aria-label="Save"] {
-        opacity: 0 !important;
-        transition: all ease-in-out .2s !important;
-    }
-
-    svg[aria-label="Like"]:hover,
-    svg[aria-label="Share Post"]:hover,
-    svg[aria-label="Save"]:hover {
-        opacity: 01 !important;
-    }
-
-
-    article[class="_8Rm4L M9sTE  L_LMM SgTZ1   ePUX4"],
-    article[class="_8Rm4L M9sTE  L_LMM SgTZ1  Tgarh ePUX4"] {
-        background-color: #0000002a !important;
-
-    }
-
-    /* comment */
-    span[class="_15y0l"] {
-        display: none !important;
-    }
-
-    /* comments padding */
-    .Slqrh,
-    .eo2As>.Slqrh:first-child,
-    .eo2As> :first-child {
-        margin-top: 0px !important;
-    }
-
-    /* time */
-    div[class="k_Q0X NnvRN"] time {
-        opacity: 0 !important;
-    }
-
-    div[class="k_Q0X NnvRN"]:hover time {
-        opacity: 1 !important;
-    }
-
-	/* dots positsion */
-.ijCUd {
-    margin-bottom: 20px !important;
-    margin-top: -18px !important;
-}
-
-/* icon on image }*/
-article[class="_8Rm4L M9sTE  L_LMM SgTZ1   ePUX4"] .eo2As  .wpO6b, section[class="ltpMr Slqrh"] .wpO6b{
-margin-top: -45px !important;
-margin-bottom: 16px !important;
-}
-
-/* .eo2As{
-margin-top: -45px !important;
-margin-bottom: 16px !important;} */
-
-/* icons on explorer page */
-article[class="M9sTE  L_LMM  JyscU  ePUX4"] svg {
-    opacity: 0.7 !important;
-    margin-bottom: 0px !important;
-}
-
-
-
-/* center tagged icon 
-._6JfJs{
-margin: 0 auto !important;}*/
-
-/* .HBUJV, .LcKDX{
-position: inherit !important;
-cursor: pointer !important;} */
-
-button[class="G_hoz LcKDX _6JfJs"], .HBUJV, .LcKDX{
-    bottom: unset !important;
-    top:0 !important;
-    z-index: 100 !important;
-    cursor:  pointer !important;
-}
-
-
-}
-
-@-moz-document url("about:newtab") {  
-	#newtab-window,
-  	html,
-  	body>*, 
-	a,span
-  	#newtab-customize-overlay 
-  	{
-    	background: #1d1e1f;
-    	color: #d1d1d1 !important;
-      }
-      
-      .icon.icon-settings{
-        fill: #d1d1d1 !important;
-      }
-
-      .icon-pin-small
-      {display: none !important;}
-
-      .collapsible-section.active{
-          background:#1b1c1d !important;
-      }
-
-      .tile {
-        box-shadow: none !important;
-      }
-}
-
-@-moz-document domain("google.com"){
-    #SIvCob{
-        display: none !important;
-    }
-
-    center .RNmpXc, center whitespace{
-        display:none !important;
-    }
-
-    #fbar{
-        display:none !important;
-    }
-
-    .szppmdbYutt__middle-slot-promo{
-        display:none !important;
-    }
-
-}
-
-
-
-
-@-moz-document domain("soundcloud.com"){
 /* This is where all the magic happens! */
 
-body{background-color:#0b0c0c !important;color: #fff !important; background-image: unset !important;}
-
+body{background-color:#0b0c0c !important;color: #fff !important; background-image: unset !important}
 .playControls__inner, .playControls__bg{background-color:#121414 !important;}
 .playControl{filter:invert(100%) !important;}
 .skipControl__previous{filter:invert(100%) !important;}
@@ -271,15 +17,15 @@ body{background-color:#0b0c0c !important;color: #fff !important; background-imag
 a.playbackSoundBadge__lightLink:hover, a.playbackSoundBadge__lightLink:focus{filter: invert(100%) !important;}
 .g-tabs-link, .g-tabs-link:visited{color: #8b9191 !important}
 .g-tabs-link.active{color: #f50 !important}
-.sc-button-small.sc-button-icon:not(.sc-button-stretch-icon), .sc-button-small.sc-button-responsive:not(.sc-button-stretch-icon){background-color: #131416 !important}
+.sc-button-small.sc-button-icon:not(.sc-button-stretch-icon), .sc-button-small.sc-button-responsive:not(.sc-button-stretch-icon){background-color: #000 !important}
 .sound__soundActions{background-color: transparent !important}
 .soundActions{background-color: transparent !important}
 /*.soundTitle__title .sc-truncate{filter: invert(100%) !important;}*/
 .soundBadge .soundTitle__username{filter: invert(100%) !important;}
 a.sc-link-dark{filter: invert(100%) !important;}
 .soundContext__line .sc-ministats{color: #fff !important}
-.sc-border-light-right{border-right: 1px solid #2b2d31 !important}
-.sc-border-light-bottom{border-bottom: 1px solid #2b2d31 !important}
+.sc-border-light-right{border-right: 1px solid #F85402 !important}
+.sc-border-light-bottom{border-bottom: 1px solid #F85402 !important}
 .playControls__inner, .playControls__bg{border-top: unset !important}
 .playbackSoundBadge__showQueue{filter: invert(100%) !important;}
 .sc-button{color: #fff !important; border: 0px solid #fff !important}
@@ -345,7 +91,7 @@ textarea, select, input{background: #000 !important}
 .uploadLoggedOut__testimonialListItemQuote{color: #000 !important}
 .uploadLoggedOut__toolsText{color: #fff !important}
 .productsMiniTable{color: #000 !important}
-.listenLogin{background-color: #232323 !important;border: 1px solid #2b2d31 !important}
+.listenLogin{background-color: #232323 !important;border: 1px solid #f50 !important}
 .g-scrollable-v .g-scrollable-inner{background-color: #121414 !important}
 .chartTrack.m-playing, .chartTrack:hover{background: #111111 !important}
 .sc-button-small.sc-button-like:before{filter: invert(100%) !important;}
@@ -360,7 +106,7 @@ textarea, select, input{background: #000 !important}
 .searchTitle{background-color: #161719 !important}
 .g-nav-item>.g-nav-link{color: #fff !important}
 .uploadMain__chooserContainer{background-color: #121414 !important}
-.sc-border-light{border: 1px solid #2b2d31 !important}
+.sc-border-light{border: 1px solid #f50 !important}
 .uploadMain__foot{background-color: unset !important}
 .sc-background-white{background-color: unset !important}
 .sc-background-light{background-color: unset !important}
@@ -419,8 +165,3 @@ textarea, select, input{background: #000 !important}
 .featuredProfiles__item h3{filter: invert(100%) !important;} /* Fix featured profiles text 1/2 */
 .featuredProfiles__list .sc-status-icon{filter: invert(100) !important;} /* Fix featured profiles text 2/2 */
 .sc-button-delete::before{filter: invert(100%) !important;} /* Fix delete playlist button */
-.backgroundGradient__buffer{background-color: #161719 !important;}
-*{border-color: #2b2d31 !important;}
-.mobileApps,.l-footer.standard,.whoToFollowModule,.sc-button-repost,.sc-button-share,.sound__footerRight,.soundTitle__tagContainer,.sc-buylink,.sc-ministats-group{display: none !important;}
-.sc-button{filter:invert(0.07) !important;}
-}
