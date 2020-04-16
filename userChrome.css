@@ -2,6 +2,9 @@
 
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
+/* extention */
+menu[label="Firefox Multi-Account Containers"]{
+display: none !important;}
 
 #_testpilot-containers-menuitem-3,
 #context-navigation,
@@ -177,16 +180,25 @@ toolbarbutton menuitem[label="No Container"] {
 *****************************************************************************************
 ************************************************************************************** */
 /* Drop Down URL with BLUR need layout.css.backdrop-filter.enabled = true */
-.urlbarView {
+ .urlbarView {
 	background-image: url(image/noise-512x512.png) !important;
+	
 	background-color: #ffffff05 !important;
-	backdrop-filter: blur(12px) contrast(1.04)   !important;
+	/* backdrop-filter: blur(12px) contrast(1.1)   !important; */
 	color: inherit !important;
-}
+
+	/* background: rgba(255,255,255, .08); */
+	/* background-color: #25242950; */
+	backdrop-filter: blur(30px) invert(.08) contrast(1.15) ;
+	/* color: #fff !important; */
+	border-bottom-left-radius:.2em ;
+	border-bottom-right-radius:.2em ;
+
+} 
 
 #urlbar-background {
 	display: none !important;
-}
+} 
 
 /* Hide some buttons for hover 
 */
