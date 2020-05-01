@@ -1,6 +1,20 @@
-@-moz-document domain(reddit.com){
 
 
+:root {
+    --b1: #141414;
+    --b2: #202020;
+    --b3: #2a2a2a;
+    --a: rgb(150, 224, 255);
+    --a1: #f0f0f0;
+    --a2: #777;
+    --a3: #666;
+    --d1: #2a2a2a;
+    --l1: #e9d2a7b0;
+    --l2: #e9d2a7;
+    --l3: #e9d2a750;
+    --light: 200;
+    --bold: 600;
+}
 
     * {
         font-size: 10pt !important;
@@ -425,4 +439,3 @@
         display: none !important;
     }
 
-}

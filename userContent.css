@@ -21,8 +21,12 @@
 }
 
 :root {
-    scrollbar-width: thin !important;
-
+    	scrollbar-width: thin !important;/*
+	scrollbar-color: red blue !important; */
+	scrollbar-color: #50505034 #00000000 !important; 
+	
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
 }
 
 .pictureInPictureToggleIcon {
@@ -1067,6 +1071,8 @@
         filter: invert(0.07) !important;
     }
 }
+
+
 
 /* ******************************************************************************************************
 
