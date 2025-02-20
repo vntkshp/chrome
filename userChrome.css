@@ -1,4 +1,6 @@
-/* set toolkit.legacyUserProfileCustomizations.stylesheets to true in about:config to start using userchrome.css */
+/* set toolkit.legacyUserProfileCustomizations.stylesheets to true in about:config to start using userchrome.css
+Goto Enable Remote Debug and Customize from settings in inspect console
+then goto more tools and browser toolbox for changing browser CSS*/
 
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
@@ -12,6 +14,7 @@ display: none !important;}
 #passwordmgr-items-separator,
 #_8263766c-d28e-4460-a2a7-7e7ada52a2d3_-menuitem-_cb_bug_report,
 #spell-separator,
+#potplayer_shortcut_ru-board_com-menuitem-_anyLinkOpen,
 #potplayer_shortcut_ru-board_com-menuitem-_pageYoutube,
 #context-inspect-a11y,
 #context-viewsource,
@@ -169,5 +172,14 @@ toolbarbutton menuitem[label="No Container"] {
 }
 
 
-
-}
+#context-stripOnShareLink{display: none !important;}
+#context-translate-selection{display: none !important;}
+#main-context-menu-translate-link-text-to-language{display: none !important;}
+#context-sep-sharing,
+#context-keywordfield,
+#context-sep-bidi,
+menuitem[disabled="true"],
+#spell-check-enabled,
+#context-sep-redo,
+.share-tab-url-item,
+#tab-stash_condordes_net-menuitem-2{display: none !important;}
