@@ -15,3 +15,4 @@ privacy.geo.enabled		false
 media.navigator.enabled		false
 network.cookie.cookieBehavior	1 (use 1 to 4)
 dom.event.clipboardevents.enabled	false
+This is a test change
